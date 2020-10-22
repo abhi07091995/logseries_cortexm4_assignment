@@ -4,7 +4,7 @@
 	 ENTRY 
 
 __main  function
-       VLDR.f32   s15, =15	; value whose logarithm series value to be find here
+       VLDR.f32   s15, =15	; value whose logarithm series value to be find  here
        VMOV.f32   s16, s15
 	   VLDR.f32   s17,= 2
        VSQRT.f32   s17,s17  
