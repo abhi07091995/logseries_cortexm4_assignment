@@ -1,5 +1,4 @@
-
-     area     appcode, CODE, READONLY
+	 area     appcode, CODE, READONLY
      export __main
 	 ENTRY 
 
@@ -9,7 +8,7 @@ __main  function
 	   VLDR.f32  s17,= 2
        VSQRT.f32 s17,s17   ; finding square root of s17
        VDIV.f32  s18,s16,s17
-       VFMS.f32  s16,s18,s18 ;  final result is stored in s16
+       VFMS.f32  s16,s18,s18 ;  result 
 	   VMOV.f32  s9, s15
 	   VMOV.f32  s19, s15
 	   VLDR.f32  s20,= 3  ; constant to be incremented for denominator
